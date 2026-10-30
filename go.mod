@@ -3,7 +3,6 @@ module github.com/AlexxIT/go2rtc
 go 1.26.0
 
 require (
-	github.com/asticode/go-astits v1.16.0
 	github.com/eclipse/paho.mqtt.golang v1.5.1
 	github.com/expr-lang/expr v1.17.8
 	github.com/google/uuid v1.6.0
@@ -30,7 +29,6 @@ require (
 )
 
 require (
-	github.com/asticode/go-astikit v0.59.0 // indirect
 	github.com/mattn/go-colorable v0.1.16 // indirect
 	github.com/pion/datachannel v1.6.3 // indirect
 	github.com/pion/logging v0.2.4 // indirect

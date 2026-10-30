@@ -10,6 +10,7 @@ import (
 	"github.com/AlexxIT/go2rtc/internal/bubble"
 	"github.com/AlexxIT/go2rtc/internal/debug"
 	"github.com/AlexxIT/go2rtc/internal/doorbird"
+	"github.com/AlexxIT/go2rtc/internal/dreame"
 	"github.com/AlexxIT/go2rtc/internal/dvrip"
 	"github.com/AlexxIT/go2rtc/internal/echo"
 	"github.com/AlexxIT/go2rtc/internal/eseecloud"
@@ -91,6 +92,7 @@ func main() {
 		// Other sources
 		{"bubble", bubble.Init},
 		{"doorbird", doorbird.Init},
+		{"dreame", dreame.Init},
 		{"dvrip", dvrip.Init},
 		{"eseecloud", eseecloud.Init},
 		{"flussonic", flussonic.Init},
