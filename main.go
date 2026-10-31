@@ -9,6 +9,7 @@ import (
 	"github.com/AlexxIT/go2rtc/internal/app"
 	"github.com/AlexxIT/go2rtc/internal/bubble"
 	"github.com/AlexxIT/go2rtc/internal/debug"
+	"github.com/AlexxIT/go2rtc/internal/dreame"
 	"github.com/AlexxIT/go2rtc/internal/doorbird"
 	"github.com/AlexxIT/go2rtc/internal/dvrip"
 	"github.com/AlexxIT/go2rtc/internal/echo"
@@ -102,6 +103,7 @@ func main() {
 		{"multitrans", multitrans.Init},
 		{"nest", nest.Init},
 		{"ring", ring.Init},
+		{"dreame", dreame.Init},
 		{"roborock", roborock.Init},
 		{"tapo", tapo.Init},
 		{"tuya", tuya.Init},
